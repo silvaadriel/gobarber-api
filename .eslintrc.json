@@ -26,6 +26,10 @@
         "argsIgnorePattern": "_"
       }
     ],
+    "@typescript-eslint/interface-name-prefix": [
+      "error",
+      { "prefixWithI": "always" }
+    ],
     "@typescript-eslint/camelcase": "off",
     "no-useless-constructor": "off",
     "class-methods-use-this": "off",
